@@ -1,4 +1,4 @@
-# spring整合redis实现无侵入式的管理缓存
+# spring整合redis实现无侵入式的缓存管理
 
 > 使用spring缓存相关的注解， 并且结合redis， 达到无侵入式的缓存管理， 下面我将用一个demo演示怎样去实现...
 
@@ -606,7 +606,7 @@ public class MenuServiceTest extends BaseTestCase {
 ```
 
 ## 总结
-spring整合redis实现无侵入式的管理缓存，分为以下几个步骤：
+spring整合redis实现无侵入式的缓存管理，分为以下几个步骤：
 
 1. 添加依赖
 2. 配置spring和redis
